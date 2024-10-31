@@ -1,0 +1,15 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* Hide to prevent flash of unstyled content */
+sesamy-content-container:not([public]) {
+	display: none;
+}
+.sesamy-paywall {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
+}
